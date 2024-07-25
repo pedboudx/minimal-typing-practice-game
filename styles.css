@@ -1,0 +1,129 @@
+.correct {
+    color: rgb(198, 198, 198);
+    transition: 150ms ease;
+    
+
+}
+
+.incorrect {
+    color: rgb(251, 105, 105);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+    background-color: rgb(32, 32, 32);
+    gap: 5vh;
+}
+
+#quoteDisplay {
+    color: rgb(106, 106, 106);
+    font-size: 14pt;
+}
+
+*{
+    font-family: "Overpass Mono", monospace;
+    font-optical-sizing: auto;
+    margin: 0;
+}
+
+h4 {
+    color: rgb(163, 163, 163);
+}
+
+#quoteInput{
+    background-color: rgb(139, 139, 139);
+    color: rgb(139, 139, 139);
+    border: none;
+    height: 10vh;
+    border-radius: 2vh;
+    width: 100%;
+    text-align: center;
+    padding: 2vw;
+}
+
+::placeholder {
+    color: black;
+}
+
+#timer {
+    font-size: 18pt;
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    color: gray;
+    font-size: 12pt;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    font-size: 30pt;
+    color: whitesmoke;
+}
+
+fieldset {
+    display: flex;
+}
+
+h6 {
+    color: whitesmoke;
+    
+}
+
+
+
+#selectWords { 
+    display: flex;
+    gap: 0px;
+    margin-bottom: 3vh;
+    align-items: baseline;
+    
+}
+
+button {
+    width: 5vw;
+    font-size: 12pt;
+    border: none;
+    border-radius: 100px;
+    height: 4vh;
+    background-color: rgba(0, 0, 0, 0);
+    color: gray;
+    transition: 500ms;
+}
+
+button:hover{
+    color: rgb(185, 185, 185);
+    font-size: 13pt;
+    transition: 500ms;
+}
+
+.selected {
+    color: rgb(210, 210, 210);
+    transition: 500ms;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Practice</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="title">
+        <h1>Speed Typer</h1>
+        <h4>Made by Pedro Boudoux</h4>
+        <div id="selectWords">
+            <h5>Word Count:</h5>
+            <button onclick="setTextSize(10)">10</button>
+            <button class='selected' onclick="setTextSize(20)">20</button>
+            <button onclick="setTextSize(30)">30</button>
+            <button onclick="setTextSize(50)">50</button>
+            <button onclick="setTextSize(100)">100</button>
+        </div>
+        <div class="timer" id="timer">Start typing to begin the test!</div>
+    </div>
+    <div class="container">
+        <div class="quote-display" id="quoteDisplay">Quote</div>
+        <input id="quoteInput" class="quote-input" placeholder="Type Here!" autofocus></input>
+        <h5 class="hidden">Begin typing again to restart!</h5>
+
+    </div>
+</body>
+
+</html>
